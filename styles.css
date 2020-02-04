@@ -88,7 +88,7 @@ main{
     border-radius: 1rem;
     padding:2rem;
 }*/
-@keyframes animation {
+/*@keyframes animation {
     0% {
         transform: translate (0px,0px);
     }
@@ -98,4 +98,4 @@ main{
     100% {
         transform: translate (0px, 0px)
     }
-}
+}*/
