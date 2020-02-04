@@ -1,0 +1,101 @@
+.box1 {
+    width:200px;
+    height:200px;
+    background:red;
+    transition:.5s;
+}
+
+.box1:hover{
+    width:400px;
+    background: yellow;
+}
+
+.box2{
+    width:200px;
+    height:200px;
+    background:red;
+    transition:.5s;
+}
+.box2:hover{
+    border-radius: 50%;
+    background: blue;
+}
+.rotate {
+    width:200px;
+    height:200px;
+    background:purple;
+    margin: 50px;
+    transition: .5s;
+}
+.scale {
+    width:200px;
+    height:200px;
+    background:purple;
+    margin: 50px;
+    transition: .5s;
+}
+.translate {
+    width:200px;
+    height:200px;
+    background:purple;
+    margin: 50px;
+    transition: .5s;
+}
+.skew {
+    width:200px;
+    height:200px;
+    background:purple;
+    margin: 50px;
+    transition: .5s;
+}
+.rotate:hover {
+    transform: rotate(-360deg);
+}
+.scale:hover {
+    transform: scale(1.2,2)
+}
+.translate:hover {
+    transform: translate(20px, 20px);
+    opacity:0.5;
+}
+.skew:hover {
+    transform: skewY(50deg);
+}
+.box {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background: pink;
+    transition: animation 1s;
+
+}
+/*.deals{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+.deals{
+    font-size:80%;
+}
+main{
+    max-width: 10000px;
+    margin:0;
+}
+.sale-item{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding:2rem;
+}*/
+@keyframes animation {
+    0% {
+        transform: translate (0px,0px);
+    }
+    50% {
+        transform: translate (20px, 20px);
+    }
+    100% {
+        transform: translate (0px, 0px)
+    }
+}
